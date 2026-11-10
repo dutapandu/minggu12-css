@@ -1,0 +1,77 @@
+
+/* Pengaturan dasar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F3F5F8;
+    color: #263238;
+}
+
+/* Header */
+header {
+    background-color: #142B50;
+    color: white;
+    padding: 15px;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Navbar */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #F5A623;
+    color: #142B50;
+}
+
+/* Konten */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #142B50;
+}
+
+section img {
+    margin: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #0D1B33;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #F5A623;
+    text-decoration: none;
+}
